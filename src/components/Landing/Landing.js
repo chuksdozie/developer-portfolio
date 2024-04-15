@@ -19,6 +19,7 @@ import {
 } from "react-icons/fa";
 
 import { SiTiktok } from "react-icons/si";
+import ProfileImage from "../../assets/png/profilePicture.jpg";
 
 function Landing() {
   const { theme, drawerOpen } = useContext(ThemeContext);
@@ -148,7 +149,8 @@ function Landing() {
           </div>
         </div>
         <img
-          src={headerData.image}
+          // src={headerData.image}
+          src={ProfileImage}
           alt=""
           className="landing--img"
           style={{
