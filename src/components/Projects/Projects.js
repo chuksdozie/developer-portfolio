@@ -53,16 +53,16 @@ function Projects() {
           <div className="projects--header">
             <h1 style={{ color: theme.primary }}>Projects</h1>
           </div>
-          <div className="starred-info">
+          {/* <div className="starred-info">
             <AiFillStar size={25} color="orange" />
             <h5 className="info-text">
               Projects with this star are protected by a Non-Disclosure
               Agreement(NDA)
             </h5>
-          </div>
+          </div> */}
           <div className="projects--body">
             <div className="projects--bodyContainer">
-              {projectsData.slice(0, 4).map((project) => (
+              {projectsData.map((project) => (
                 <SingleProject
                   theme={theme}
                   key={project.id}
@@ -78,7 +78,7 @@ function Projects() {
               ))}
             </div>
 
-            {projectsData.length > 3 && (
+            {/* {projectsData.length > 3 && (
               <div className="projects--viewAll">
                 <Link to="/projects">
                   <button className={classes.viewAllBtn}>
@@ -87,7 +87,7 @@ function Projects() {
                   </button>
                 </Link>
               </div>
-            )}
+            )} */}
           </div>
         </div>
       )}

@@ -8,16 +8,49 @@ import seven from "../assets/svg/projects/seven.svg";
 import eight from "../assets/svg/projects/eight.svg";
 
 export const projectsData = [
+  // {
+  //   id: 1,
+  //   projectName: "Student Management App",
+  //   projectDesc:
+  //     "This Web App keeps helps managing students become easy, easy retrive a students details like courses taken, parent details, courses location etc.",
+  //   tags: ["Next Js", "Node Js", "Mongo DB"],
+  //   code: "",
+  //   demo: "",
+  //   image: "",
+  //   star: true,
+  // },
   {
     id: 1,
-    projectName: "Student Management App",
+    projectName: "Loubby AI",
     projectDesc:
-      "This Web App keeps helps managing students become easy, easy retrive a students details like courses taken, parent details, courses location etc.",
-    tags: ["Next Js", "Node Js", "Mongo DB"],
+      "AI-Powered global talent acquisition and management for Africa's workforce. It provides all the tools you ever need to discover, recruit, and manage top African talent from anywhere in the world using the best of AI.",
+    tags: ["Next", "Node", "Mongo DB"],
     code: "",
-    demo: "",
-    image: "",
-    star: true,
+    demo: "https://loubby.ai/",
+    image:
+      "https://ik.imagekit.io/akf2tcskl/Portfolio/Desktop_S1Buy798R.png?updatedAt=1714606102049",
+  },
+  {
+    id: 2,
+    projectName: "Profit-Inc",
+    projectDesc:
+      "An application that analyzes your business's financial data and recommends areas for maximizing profit.",
+    tags: ["Next", "AWS Amplify", "Dynamo DB"],
+    code: "",
+    demo: "https://profitinc.com/",
+    image:
+      "https://ik.imagekit.io/akf2tcskl/Portfolio/Admin%20Portal_TYu55T6Dh.png?updatedAt=1714605204685",
+  },
+  {
+    id: 3,
+    projectName: "Proforma",
+    projectDesc:
+      "An application that creates a detailed and comprehensive financial analysis for mostly startups.",
+    tags: ["Next", "AWS Amplify", "Dynamo DB"],
+    code: "",
+    demo: "https://pro-forma.com/",
+    image:
+      "https://ik.imagekit.io/akf2tcskl/Portfolio/Revenue%20Summary_RDeBNSJNR.png?updatedAt=1714606956925",
   },
   // {
   //   id: 2,
