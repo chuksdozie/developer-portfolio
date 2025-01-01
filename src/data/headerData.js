@@ -1,4 +1,6 @@
-import resume from "../assets/pdf/resume_dev_divverse.pdf";
+// import resume from "../assets/pdf/resume_dev_divverse.pdf";
+import resume from "../assets/pdf/Chiedozie Nzube Chukwu - Software Engineer.pdf";
+// /Users/macbooka1990/Desktop/coding/developer-portfolio/src/assets/pdf/Chiedozie Nzube Chukwu - Software Engineer.pdf
 
 export const headerData = {
   name: "Chiedozie Chukwu",
