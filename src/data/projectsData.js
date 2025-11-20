@@ -52,6 +52,47 @@ export const projectsData = [
     image:
       "https://ik.imagekit.io/akf2tcskl/Portfolio/Revenue%20Summary_RDeBNSJNR.png?updatedAt=1714606956925",
   },
+  {
+    id: 4,
+    projectName: "Ampspot",
+    projectDesc:
+      "A booking and account management platform for DJs and event planners. It includes real-time messaging, availability management, invoicing, contracts, analytics, and subscription tiers with automated workflows.",
+    tags: ["Next Js", "Node.js", "AWS (Lambda, S3, CloudFront)", "CI/CD"],
+    code: "",
+    demo: "https://ampspot.co/",
+    image:
+      "https://ik.imagekit.io/akf2tcskl/Portfolio/Screenshot%202025-11-20%20at%2011.17.37_gYjLvIhdY.png",
+  },
+  // {
+  //   id: 5,
+  //   projectName: "Maestroverse",
+  //   projectDesc:
+  //     "A booking and account management platform for DJs and event planners. It includes real-time messaging, availability management, invoicing, contracts, analytics, and subscription tiers with automated workflows.",
+  //   tags: ["React Native", "Node.js", "AWS (Lambda, S3, CloudFront)", "CI/CD"],
+  //   code: "",
+  //   demo: "https://ampspot.com/",
+  //   image:
+  //     "https://ik.imagekit.io/akf2tcskl/Portfolio/Revenue%20Summary_RDeBNSJNR.png?updatedAt=1714606956925",
+  // },
+  // {
+  //   id: 5,
+  //   projectName: "Ampspot Mobile",
+  //   projectDesc:
+  //     "A full-featured mobile app for DJs and event planners, enabling seamless bookings, messaging, availability syncing, invoicing, contracts, earnings analytics, and real-time notifications. Built with offline readiness and subscription-tier access control.",
+  //   tags: [
+  //     "React Native",
+  //     "TypeScript",
+  //     "Node.js",
+  //     "AWS (Lambda, S3)",
+  //     "FCM",
+  //     "Redux Toolkit",
+  //   ],
+  //   code: "",
+  //   demo: "https://ampspot.com/",
+  //   image:
+  //     "https://ik.imagekit.io/akf2tcskl/Portfolio/Revenue%20Summary_RDeBNSJNR.png?updatedAt=1714606956925",
+  // },
+
   // {
   //   id: 2,
   //   projectName: "Profiler - Client",

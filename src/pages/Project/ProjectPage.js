@@ -95,29 +95,29 @@ function ProjectPage() {
             className={classes.search}
           />
         </div>
-        <div className="project-container">
-          <Grid
+        <div style={{ display: "flex", width: "100%" }}>
+          {/* <Grid
             className="project-grid"
             container
             direction="row"
             alignItems="center"
             justifyContent="center"
-          >
-            {filteredArticles.map((project) => (
-              <SingleProject
-                theme={theme}
-                key={project.id}
-                id={project.id}
-                name={project.projectName}
-                desc={project.projectDesc}
-                tags={project.tags}
-                code={project.code}
-                demo={project.demo}
-                image={project.image}
-                stars={6678}
-              />
-            ))}
-          </Grid>
+          > */}
+          {filteredArticles.map((project) => (
+            <SingleProject
+              theme={theme}
+              key={project.id}
+              id={project.id}
+              name={project.projectName}
+              desc={project.projectDesc}
+              tags={project.tags}
+              code={project.code}
+              demo={project.demo}
+              image={project.image}
+              stars={6678}
+            />
+          ))}
+          {/* </Grid> */}
         </div>
       </div>
     </div>
